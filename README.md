@@ -8,21 +8,21 @@ Visualizing the CNN output while softmax is used in intermediate layers
 
 Usually Softmax will be used for spatial dimension in the sense the height and width of an image
 
-Softmax for height dimension
+- Softmax for height dimension
 
 ![F1](feature_maps1.jpg)
 
-Softmax for width dimension
+- Softmax for width dimension
 
 ![F1](feature_maps1.jpg)
 
-Softmax for both height and width dimension
+- Softmax for both height and width dimension
 
 ![F1](feature_maps1.jpg)
 
 
 
-The output of Intel Image Classification for softmax intermediate layers
+- The output of Intel Image Classification for softmax intermediate layers
 
 Epoch [1 / 50], Training Loss: 1.884, Training Accuracy: 16.895
 Epoch [2 / 50], Training Loss: 1.801, Training Accuracy: 17.510
@@ -76,13 +76,18 @@ Epoch [49 / 50], Training Loss: 1.003, Training Accuracy: 59.966
 Epoch [50 / 50], Training Loss: 1.019, Training Accuracy: 58.452
 
 
-The output of Intel Image Classification for ReLU intermediate layers
+- The output of Intel Image Classification for ReLU intermediate layers
 
 Epoch [1 / 50], Training Loss: 1.571, Training Accuracy: 44.968
+
 Epoch [2 / 50], Training Loss: 1.038, Training Accuracy: 59.503
+
 Epoch [3 / 50], Training Loss: 0.952, Training Accuracy: 63.529
+
 Epoch [4 / 50], Training Loss: 0.848, Training Accuracy: 68.899
+
 Epoch [5 / 50], Training Loss: 0.788, Training Accuracy: 70.315
+
 Epoch [6 / 50], Training Loss: 0.778, Training Accuracy: 71.170
 Epoch [7 / 50], Training Loss: 0.723, Training Accuracy: 73.156
 Epoch [8 / 50], Training Loss: 0.722, Training Accuracy: 73.254
