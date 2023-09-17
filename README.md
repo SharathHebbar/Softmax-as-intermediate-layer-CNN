@@ -4,25 +4,25 @@ Link to the notebook: [CNN](https://www.kaggle.com/code/sharathshebbar/cnn-don-t
 
 Context: Usually Softmax activation function will not be used in intermediate layer as it might lead to vanishing gradients problem as it squashes the input between 0 to 1.
 
-Visualizing the CNN output while softmax is used in intermediate layers
+# Visualizing the CNN output while softmax is used in intermediate layers
 
-Usually Softmax will be used for spatial dimension in the sense the height and width of an image
+- Usually Softmax will be used for spatial dimension in the sense the height and width of an image
 
-- Softmax for height dimension
-
-![F1](feature_maps1.jpg)
-
-- Softmax for width dimension
+## Softmax for height dimension
 
 ![F1](feature_maps1.jpg)
 
-- Softmax for both height and width dimension
+## Softmax for width dimension
+
+![F1](feature_maps1.jpg)
+
+## Softmax for both height and width dimension
 
 ![F1](feature_maps1.jpg)
 
 
 
-- The output of Intel Image Classification for softmax intermediate layers
+# The output of Intel Image Classification for softmax intermediate layers
 
 - Epoch [1 / 50], Training Loss: 1.884, Training Accuracy: 16.895
 - Epoch [2 / 50], Training Loss: 1.801, Training Accuracy: 17.510
